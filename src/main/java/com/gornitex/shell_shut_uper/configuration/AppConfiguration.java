@@ -39,7 +39,7 @@ public class AppConfiguration {
 
 	@Bean("OpenWeatherMapClient")
 	public OpenWeatherMapClient openWeatherMapClientProvider() {
-		return new OpenWeatherMapClient("6ed0d6927cb500034e0583bb581ebfae");
+		return new OpenWeatherMapClient("secret");
 	}
 
 	@Bean("runtime")
